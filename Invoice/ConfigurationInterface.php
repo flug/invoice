@@ -35,6 +35,6 @@ interface ConfigurationInterface
     public function isPaginate(): bool;
 
     public function hasDuplicationHeader(): bool;
-    
-    public function getTemplate(): string ;
+
+    public function getTemplate(): string;
 }
