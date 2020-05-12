@@ -13,7 +13,6 @@ declare(strict_types=1);
 
 namespace Flug\Invoice;
 
-
 final class Configuration implements ConfigurationInterface
 {
     private string $currency;
@@ -106,7 +105,7 @@ final class Configuration implements ConfigurationInterface
     {
         return $this->displayImages;
     }
-    
+
     public function getTemplate(): string
     {
         return $this->template;
