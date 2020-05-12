@@ -20,6 +20,7 @@ jobs:
             -   image: circleci/php:7.4
         steps:
             - checkout
+            - run: sudo docker-php-ext-install -j$(nproc) bcmath
             -   <<: *composer
             -   <<: *tests
     release-test:
