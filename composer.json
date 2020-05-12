@@ -1,0 +1,27 @@
+{
+    "name": "flug/invoice",
+    "description": "A simple invoice generator",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "ext-bcmath": "*",
+        "dompdf/dompdf": "^0.8.5",
+        "symfony/twig-pack": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flug\\": ""
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^6.1",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flug",
+            "email": "flugv1@gmail.com"
+        }
+    ]
+}
