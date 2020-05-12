@@ -1,7 +1,8 @@
-Flug Invoice is a small library/bundle for Symfony to help you generate pdf invoices quickly, it doesn't use wkhtmltopdf but dompdf or you can find the documentation here.
+Flug Invoice is a small library/bundle for Symfony to help you generate pdf invoices quickly, it doesn't use wkhtmltopdf 
+but dompdf or you can find the [documentation here](https://github.com/dompdf/dompdf).
 you can overload as you want by implementing the interface : **"Flug\Invoice\ConfigurationInterface"**.
 
-The full configuration of dependency injection is [available here](https://github.com/dompdf/dompdf) :
+The full configuration of dependency injection is available here:
 
 ```yaml
 
