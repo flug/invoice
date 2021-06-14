@@ -17,7 +17,7 @@ $finder = PhpCsFixer\Finder::create()
     ->exclude('var')
    ;
 
-return PhpCsFixer\Config::create()
+return (new PhpCsFixer\Config())
     ->setRiskyAllowed(true)
     ->setRules([
         '@DoctrineAnnotation' => true,
