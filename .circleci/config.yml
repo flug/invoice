@@ -6,7 +6,6 @@ orbs:
 
 composer: &composer
     run: |
-        composer global require hirak/prestissimo --no-progress
         composer install -vvv --profile --no-interaction
 
 tests: &tests
