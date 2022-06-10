@@ -1,6 +1,6 @@
 {
   "name": "flug-invoice",
   "dependencies": {
-    "semantic-release": "^17.4.4"
+    "semantic-release": "^19.0.3"
   }
 }
